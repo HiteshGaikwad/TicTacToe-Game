@@ -134,9 +134,6 @@ public class TicTacToe implements ActionListener{
         if(buttons[2].getText()=="O" &&buttons[4].getText()=="O" && buttons[6].getText()=="O"){
             owin(2,4,6);
         }
-//        if(){
-//            draw();
-//        }
     }
     boolean result=true;
 
@@ -160,13 +157,5 @@ public class TicTacToe implements ActionListener{
             buttons[i].setEnabled(false);
         }
     }
-//    public void draw() {
-//        if(result){
-//            textfield.setText("Match Draw.");
-//        }
-//        for(int i=0;i<9;i++){
-//            buttons[i].setEnabled(false);
-//        }
- //   }
 
 }
